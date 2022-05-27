@@ -1,0 +1,40 @@
+{
+  "name": "actual-nordigen",
+  "version": "0.9.8",
+  "description": "Leverages the nordigen bank api to fetch transactions from eu banks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "keywords": [
+    "actual",
+    "sync",
+    "integration",
+    "collective"
+  ],
+  "type": "module",
+  "author": {
+    "name": "Steven Steinrücken",
+    "email": "info@steven-steinruecken.de",
+    "url": "https://github.com/skcxck"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "body-parser": "^1.20.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "hbs": "^4.1.2",
+    "nordigen-node": "^1.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.16.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "nodemon": "^2.0.15",
+    "prettier": "^2.6.2"
+  }
+}
